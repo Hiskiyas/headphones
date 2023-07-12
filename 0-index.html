@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <style>
+        .header{
+            display:flex;
+            justify-content: space-between;
+            background-color:gray;
+            color: white;
+            padding-top: 41px;
+            padding-left: 213px;
+            padding-right: 213px;
+        }
+        .Nav-Bar ul{
+            display:flex;
+            list-style: none;
+            gap: 20px; 
+        }
+        .w-6
+        {
+            width: 50px;
+        }
+        .small-screen
+        {
+            display: none;
+        }
+        @media screen and (max-width:780px){
+            .small-screen{
+                display:block;
+                
+                
+                
+            }
+            .Nav-Bar{
+                display: none;
+            }
+            .header
+            {
+                display: flex;
+                justify-content: space-between;
+                background-color: gray;
+                color: white;
+                padding-left: 15px;           
+
+
+
+            }
+            .logo
+            {
+                display: flex;
+                justify-self: center;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="header">
+            <div class="small-screen">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+                  </svg>
+                  
+            </div>
+            <div class="logo">
+            <a href="#">
+                logo
+            </a></div>
+            <nav class ="Nav-Bar">
+                <ul>
+                    <li><a href ="#">What we do</a></li>
+                    <li><a href ="#">our results</a></li>
+                    <li><a href ="#">contact us</a></li>
+                </ul>
+            </nav>
+            <!--Hamburger-->
+            
+        </div>
+    </header>
+    
+</body>
+</html>
