@@ -1,5 +1,71 @@
-.header
-{
-    display:flex
 
+body
+        
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro' ;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:gray;
+    color: white;
+    padding-top: 41px;
+    padding-left: 213px;
+    padding-right: 213px;
+    
+}
+.Nav-Bar ul{
+    display:flex;
+    list-style: none;
+    gap: 20px; 
+    text-decoration: none;
+
+}
+.Nav-Bar ul:hover
+{
+    color: #FF6565;
+}
+.w-6
+{
+    width: 50px;
+}
+.small-screen
+{
+    display: none;
+}
+@media screen and (max-width:780px){
+    .small-screen{
+        display:block;
+        
+        
+        
+    }
+    .Nav-Bar{
+        display: none;
+    }
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        background-color: gray;
+        color: white;
+        padding-left: 15px;        
+          
+
+
+
+    }
+    .logo
+    {
+        display: flex;
+        justify-self: center;
+    }
+    
+    
+}
+main
+{
+    
 }
