@@ -27,6 +27,21 @@ body
             align-items: baseline;
             
         }
+        .Final-footer
+        {
+            display: flex;
+            background-color: #071629;
+            height: 249px;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 180px;
+            padding-right: 180px;
+        }
+        .Final-footer .Social
+        {
+            
+            gap: 20px;
+        }
         .Nav-Bar {
             display:flex;
             list-style: none;
@@ -85,10 +100,20 @@ body
             {
             display: flex;
             flex-direction: column;
+            flex-flow: column;
             justify-content: space-between;
             align-items: center;
             gap: 50px;
+            height: auto;
             }
+            .main-header .third-section .third-div
+             {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 50px;
+             }
             
             
             
@@ -109,7 +134,7 @@ body
             flex-direction: column;
         }
         main .second-section 
-        {   height: 1000px;
+        {   height: 800px;
             display: flex;
             color: black;
             justify-content: flex-start;
@@ -136,11 +161,71 @@ body
             display: flex;
             justify-content: center;
         }
+        main .second-section .second-div img
+        {   display: flex;
+            width: 80px;
+            height: 65px;
+            justify-content: center;
+            padding-left: 50px;
+        }
         main .second-section h1,p
         {
             display: flex;
             justify-content: center;
         }
+        main .third-section
+        {
+            height: 800px;
+            background-image: url(assets/headphones_hero_2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display:flex;
+            color: white;
+            position: relative;
+            justify-content: center;
+        }
+        .main-header .third-section h1,p
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .main-header .third-section
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .main-header .third-section .third-div
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+        .main-header .third-section .third-div .rd-section 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 190px;
+            width: 190px;
+            background-image: url(assets/PolygonCopy.png);
+            background-repeat: no-repeat;
+            
+            
+            
+        }
+        .main-header .third-section .third-div .rd-section h1,p
+        {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-header .third-section .third-div .rd-section h1
+        {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        
         #main-header
         {
             color: white;
@@ -233,32 +318,99 @@ body
             </div>
             <div class="second-div">
                 <section class="sec-section">
-                    <img src="#" alt="img1">
+                    <img src="assets/sound-frecuency.png" alt="img1">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet,</p>
                     <p>consectur adipiscing elit.</p>
                 </section>
                 <section class="sec-section">
-                    <img src="#" alt="img1">
+                    <img src="assets/video.png" alt="img1">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet,</p>
                     <p>consectur adipiscing elit.</p>
                 </section>
                 <section class="sec-section">
-                    <img src="#" alt="img1">
+                    <img src="assets/music.png" alt="img1">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet,</p>
                     <p>consectur adipiscing elit.</p>
                 </section>
                 <section class="sec-section">
-                    <img src="#" alt="img1">
+                    <img src="assets/hearing.png" alt="img1">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet,</p>
                     <p>consectur adipiscing elit.</p>
                 </section>
             </div>
+            
+        </section>
+        <section class="third-section">
+            <div>
+                
+                <h1>Our results speak for themselves</h1>
+                <br>
+                
+                <p>Lorem ipsum dolor sit amet, consectur adipiscing elit,sed do eiusmod tempor incididunt ut</p>
+                <p>labore et dolore magna aliqua. Ut enim ad minim veinam,quis nostrud erercitation ullamco</p>
+                <p>laboris nisi ut aliquip ex ea comondo consequat. Duis aute irure dolor in reprehenderit in</p>
+                <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <br> <br> <br>
+            </div>
+            <div class="third-div">
+                <div class="rd-section">
+                    <h1>+2%</h1>
+                   <p>Lorem ipsum dolor</p>
+                    
+                </div>
+                <div class="rd-section">
+                    <h1>+2%</h1>
+                   <p>Lorem ipsum dolor</p>
+                </div>
+                   
+                <div class="rd-section">
+                    <h1>+2%</h1>
+                   <p>Lorem ipsum dolor</p>
+                    
+                </div>
+                <div class="rd-section">
+                   <h1>+2%</h1>
+                   <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="forth-section">
+
+
+
         </section>
     </main>
+    <footer>
+        <div class="Final-footer">
+            <div class="top-footer">
+            <div class="logo">
+            
+                
+            
+                <img src="assets/logo_headphones.png" alt="logo_headphones">
+            </div>
+            <nav class="Social">
+                <img src="assets/Facebook_White.png" alt="facebook">
+                <img src="assets/Twitter_White.png" alt="twitter">
+                <img src="assets/Instagram_White.png" alt="Instagram">
+                 
+
+            </nav>
+        </div>
+            <div class="bottom-footer">
+                <p>
+                    ©headphones 2020
+                </p>
+            </div>
+        </div>
+        
+        
+    </footer>
     
 </body>
 </html>
